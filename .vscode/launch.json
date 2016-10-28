@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "cwd": "${fileDirname}",
+            "startupClass": "UniPD.${fileBasename}",
+            "options": [
+               "-classpath",
+                "${workspaceRoot}\\tree\\target\\classes"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "cwd": "${fileDirname}",
+            "startupClass": "UniPD.${fileBasename}",
+            "options": [
+               "-classpath",
+                "${workspaceRoot}\\tree\\target\\classes"
+            ],
+            "externalConsole": true
+        }
+    ]
+}
