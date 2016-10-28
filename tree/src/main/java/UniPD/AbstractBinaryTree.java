@@ -10,6 +10,6 @@ public abstract class AbstractBinaryTree<E> extends AbstractTree<E> implements B
             return left(parent);
     }
     public int numChildren(Position<E> p){
-        
+        int count = 0;
     }
 }
