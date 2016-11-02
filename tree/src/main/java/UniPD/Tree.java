@@ -25,6 +25,9 @@ public interface Tree<E> extends Iterable<E>{
     int size();
     boolean isEmpty();
     Iterator<E> itarator();
+    /**
+    * A list of each node in the Tree
+    */
     Iterable<Position<E>> positions();
 
 }

@@ -20,6 +20,11 @@ public abstract class AbstractTree<E> implements Tree<E> {
         }
         return d;
     }
+    /**
+    * Computes the height of a given node p
+    *
+    * @param p  starting node to compute height
+    */
     public int height(Position<E> p){
         int h = 0;
         for(Position<E> c : children(p))
