@@ -1,0 +1,3 @@
+INFO	?	main	2016-11-19T15:25:13.650Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2016-11-19T15:25:14.394Z	org.javacs.JavaLanguageServer#doLint	Lint [c:\Users\samue\OneDrive\Documenti\uni\da1\java\tree\tree\src\main\java\UniPD\LinkedBinaryTree.java]
+INFO	?	main	2016-11-19T15:25:15.040Z	org.javacs.JavaLanguageServer#buildClassPath	Emit classpath to C:\Users\samue\AppData\Local\Temp\classpath3335030954748179240.txt
